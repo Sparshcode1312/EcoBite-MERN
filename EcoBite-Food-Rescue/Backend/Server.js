@@ -1,7 +1,7 @@
 require("dotenv").config({ override: true });
 
 
-const { protect, vendorOnly } = require("./middleware/authMiddleware");
+const { protect, vendorOnly } = require("./Middleware/authMiddleware");
 const { uploadImage } = require("./services/cloudinaryService");
 const http = require("http");
 const { Server } = require("socket.io");
