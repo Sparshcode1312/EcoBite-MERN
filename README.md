@@ -581,6 +581,7 @@ By connecting consumers with surplus food from vendors, the platform aims to:
 **Sparsh Agrawal**
 
 GitHub: [Sparshcode1312](https://github.com/Sparshcode1312)
+Live Deployed Link- https://eco-bite-mern.vercel.app/
 
 ---
 
