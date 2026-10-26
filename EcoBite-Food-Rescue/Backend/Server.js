@@ -21,7 +21,7 @@ const razorpay = new Razorpay({
   key_secret: process.env.RAZORPAY_KEY_SECRET,
 });
 const connectDB = require("./config/db");
-const User = require("./Models/User");
+const User = require("./Models/user");
 connectDB();
 
 const app = express();
