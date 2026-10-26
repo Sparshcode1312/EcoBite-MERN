@@ -2,7 +2,7 @@ require("dotenv").config({ override: true });
 
 
 const { protect, vendorOnly } = require("./Middleware/authMiddleware");
-const { uploadImage } = require("./services/cloudinaryService");
+const { uploadImage } = require("./Services/cloudinaryService");
 const http = require("http");
 const { Server } = require("socket.io");
 const Food = require("./Models/Food");
@@ -21,7 +21,7 @@ const razorpay = new Razorpay({
   key_secret: process.env.RAZORPAY_KEY_SECRET,
 });
 const connectDB = require("./config/db");
-const User = require("./models/User");
+const User = require("./Models/User");
 connectDB();
 
 const app = express();
